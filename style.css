@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff8f8;
+}
+.container{
+    margin: 80px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.row{
+    width: 100%;
+}
+button{
+    width: 68px;
+    height: 45px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -1px -1px 2px #fff8f8, 0px 0px 6px black;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+button:active{
+    box-shadow: 1px  1px 2px #f3f3f3, -1px -1px 2px #f5f5f6;
+}
+.on{
+    display: flex;
+}
+.on button{
+    width: 70px;
+}
+.espaces {
+    flex: .8;
+}
+.delet{
+    width: 120px;
+    background-color: #913f2f;
+
+}
+.tab{
+    width: 120px;
+    background-color: #913f2f;
+}
+.capslock{
+    width: 132px;
+    background-color: #913f2f;
+}
+.retourn{
+    width: 131px;
+    background-color: #913f2f;
+}
+.shift{
+    width: 171px;
+    background-color: #913f2f;
+}
+.other{
+    width: 280px;
+}
+.command{
+    width: 320px;
+    background-color: #913f2f;
+}
+.space{
+    width: 890px;
+    background-color: #913f2f;
+}
+
+.six{
+    display: flex;
+}
+.seven{
+    display: flex;
+}
+.flech{
+    display: flex;
+    flex-direction: column;
+}
+.flech button {
+    height: 20px;
+    font-size: 15px;
+}
